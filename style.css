@@ -4,7 +4,7 @@
   --text-color: #C9D1D9;
   --accent-color: #58A6FF;
   --highlight: #8B5CF6;
-  --card-color: #161B22;
+  --card-color: #000000;
 }
 
 /* Reset */
@@ -90,14 +90,9 @@ section {
   background-color: var(--card-color);
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-  opacity: 0;
-  transform: translateY(30px);
-  transition: all 0.7s ease;
-}
-
-section.visible {
   opacity: 1;
   transform: translateY(0);
+  transition: all 0.7s ease;
 }
 
 h2 {
@@ -121,3 +116,4 @@ footer {
   background-color: #0a0d12;
   color: #888;
 }
+
