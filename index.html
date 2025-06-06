@@ -3,57 +3,80 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Apoorva N | AI & Robotics Enthusiast</title>
+  <title>Apoorva Nema | AI & Robotics Portfolio</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+  <nav>
+    <div class="nav-left">Apoorva Nema</div>
+    <ul class="nav-right">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button id="toggle-mode">🌙</button></li>
+    </ul>
+  </nav>
+
   <header>
-    <h1>Apoorva N</h1>
-    <p>AI/ML | Robotics | Research | Developer</p>
+    <h1 class="typing-text">Hi, I'm Apoorva 👋</h1>
+    <p>AI/ML | Robotics | Vision Transformers | Research</p>
+    <div class="header-buttons">
+      <a href="Apoorva_Nema.pdf" download class="btn">📄 Resume</a>
+      <a href="https://github.com/anema25" target="_blank" class="btn">💻 GitHub</a>
+      <a href="https://www.linkedin.com/in/apoorvanema/" target="_blank" class="btn">🔗 LinkedIn</a>
+    </div>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I’m an AI/ML and Robotics enthusiast with experience in real-time voice cloning, WaveRNN, clustering algorithms, and embedded systems using 8051. I’ve interned at Inferigence Quotient and contributed to sentiment analysis models using audio signals and deep learning. Currently exploring camouflage detection, CUDA programming, and RAG architectures.</p>
-  </section>
+  <main>
+    <section id="about" class="reveal">
+      <h2>About Me</h2>
+      <p>I am a Computer Science undergrad passionate about AI, ML, robotics, and computer vision. I’ve interned with DRDO and a deep tech startup, worked on synthetic voice analysis using Voice Cloning + Vision Transformers, and led robotics and AI initiatives at VIT.</p>
+    </section>
 
-  <section id="experience">
-    <h2>Experience</h2>
-    <ul>
-      <li><strong>AI Intern, Inferigence Quotient Pvt. Ltd.</strong><br>
-      Developed audio-based sentiment detection models using NN, clustering, and signal processing.</li>
-      <li><strong>Research Intern</strong><br>
-      Built pipelines using Real-Time Voice Cloning, WaveRNN, ChromaDB + Vision Transformers to distinguish human vs AI-generated voice.</li>
-      <li><strong>Core Member, roboVITics, VIT</strong><br>
-      Led AI/ML initiatives, organized RoboWars, mentored juniors on embedded systems and Fusion 360.</li>
-    </ul>
-  </section>
+    <section id="experience" class="reveal">
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>AI Intern – Inferigence Quotient</strong><br>
+        Audio sentiment analysis using clustering, text extraction & neural networks.</li>
+        <li><strong>Project Trainee – DRDO CAIR</strong><br>
+        Built dataset using RTVC/WaveRNN, extracted audio features, used Vision Transformers for deepfake voice detection.</li>
+        <li><strong>Senior Core Member – roboVITics</strong><br>
+        Mentored AI/ML projects, conducted designathons, and led RoboWars tech fests.</li>
+      </ul>
+    </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>Chrome Extension – Dark Pattern Detector</strong> (Classification Model)</li>
-      <li><strong>Supermarket Bot</strong> – Object Detection + Raspberry Pi + AIML</li>
-      <li><strong>8051 Highway Toll Booth System</strong> (Assembly Code + Sensor I/O)</li>
-    </ul>
-  </section>
+    <section id="projects" class="reveal">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong><a href="https://github.com/anema25/Dark_pattern_detector">Dark Pattern Detector</a></strong> – Chrome extension using ML to flag deceptive UI.</li>
+        <li><strong>Synthetic Voice Classifier</strong> – Vision Transformers to separate human vs cloned voices.</li>
+        <li><strong><a href="https://github.com/anema25/DomainMentor">WordNet-Based Domain Mapper</a></strong> – NLP tool to match student-professor research fields.</li>
+        <li><strong>Autonomous Gas Detection Robot</strong> – Arduino+ESP32-based robot for hazardous gas detection.</li>
+      </ul>
+    </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <p><strong>Languages:</strong> Python, C, C++, Java, HTML/CSS, JavaScript<br>
-    <strong>AI/ML:</strong> Classification, Regression, Clustering, Transformers, RAG, Sentiment Analysis<br>
-    <strong>Tools:</strong> Git, Colab, VS Code, Fusion 360, ChromaDB</p>
-  </section>
+    <section id="skills" class="reveal">
+      <h2>Skills</h2>
+      <p><strong>Languages:</strong> Python, C++, Java, JavaScript, HTML/CSS, SQL</p>
+      <p><strong>Frameworks & Tools:</strong> TensorFlow, Keras, PyTorch, React, MongoDB, Git/GitHub</p>
+      <p><strong>AI/ML:</strong> NLP, Vision Transformers, Classification, Regression, Audio Processing</p>
+      <p><strong>Concepts:</strong> DSA, OS, DBMS, OOP, Machine Learning</p>
+    </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: your.email@example.com<br>
-    GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a><br>
-    LinkedIn: <a href="#">(Your LinkedIn)</a></p>
-  </section>
+    <section id="contact" class="reveal">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:apoorvanema25@gmail.com">apoorvanema25@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/anema25">github.com/anema25</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/apoorvanema/">linkedin.com/in/apoorvanema</a></p>
+    </section>
+  </main>
 
   <footer>
-    <p>Made with ❤️ by Apoorva N</p>
+    <p>Made with ❤️ by Apoorva Nema</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
