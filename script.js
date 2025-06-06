@@ -1,31 +1,31 @@
-// Typing Effect
+// Typing effect for hero heading
 const text = "Hi, I'm Apoorva 👋";
 let index = 0;
-const typingText = document.querySelector('.typing-text');
+const typingText = document.querySelector(".typing-text");
 
 function type() {
   if (index < text.length) {
-    typingText.textContent += text[index++];
-    setTimeout(type, 60);
+    typingText.textContent += text[index];
+    index++;
+    setTimeout(type, 70);
   }
 }
-
 typingText.textContent = "";
 type();
 
-// Reveal on scroll - sections are visible by default now, so this is optional
+// Reveal on scroll effect
 const reveals = document.querySelectorAll(".reveal");
 
-window.addEventListener("scroll", () => {
-  for (let i = 0; i < reveals.length; i++) {
-    const top = reveals[i].getBoundingClientRect().top;
-    if (top < window.innerHeight - 100) {
-      reveals[i].classList.add("visible");
+function revealOnScroll() {
+  for (const reveal of reveals) {
+    const top = reveal.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+
+    if (top < windowHeight - 100) {
+      reveal.classList.add("visible");
     }
   }
-});
+}
 
-// Add dark-mode class on body (optional if already set in HTML)
-document.body.classList.add("dark-mode");
-
-
+window.addEventListener("scroll", revealOnScroll);
+window.addEventListener("load", revealOnScroll);
