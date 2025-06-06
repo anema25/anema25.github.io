@@ -1,5 +1,5 @@
 // Typing effect for hero heading
-const text = "Hi, I'm Apoorva 👋";
+const text = "Hello! I'm Apoorva";
 let index = 0;
 const typingText = document.querySelector(".typing-text");
 
