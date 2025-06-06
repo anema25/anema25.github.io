@@ -3,25 +3,27 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Apoorva Nema | AI & Robotics Portfolio</title>
+  <title>Apoorva Nema | AI & Robotics</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
-<body>
+<body class="dark-mode">
+
   <nav>
     <div class="nav-left">Apoorva Nema</div>
     <ul class="nav-right">
       <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#skills">Skills</a></li>
+      <li><a href="#achievements">Achievements</a></li>
       <li><a href="#contact">Contact</a></li>
-      <li><button id="toggle-mode">🌙</button></li>
     </ul>
   </nav>
 
   <header>
     <h1 class="typing-text">Hi, I'm Apoorva 👋</h1>
-    <p>AI/ML | Robotics | Vision Transformers | Research</p>
+    <p>AI/ML | Robotics | Voice Cloning | Deep Tech Research</p>
     <div class="header-buttons">
       <a href="Apoorva_Nema.pdf" download class="btn">📄 Resume</a>
       <a href="https://github.com/anema25" target="_blank" class="btn">💻 GitHub</a>
@@ -32,37 +34,68 @@
   <main>
     <section id="about" class="reveal">
       <h2>About Me</h2>
-      <p>I am a Computer Science undergrad passionate about AI, ML, robotics, and computer vision. I’ve interned with DRDO and a deep tech startup, worked on synthetic voice analysis using Voice Cloning + Vision Transformers, and led robotics and AI initiatives at VIT.</p>
+      <p>I'm an AI and Robotics enthusiast currently pursuing B.Tech in Computer Science at VIT. I specialize in machine learning, speech processing, and real-time systems. From voice cloning to neural network design, I love building systems that push boundaries. My work spans from deepfake detection research at DRDO to real-time gas-sensing robots. I believe in solving meaningful problems with code, creativity, and curiosity.</p>
+    </section>
+
+    <section id="education" class="reveal">
+      <h2>Education</h2>
+      <p><strong>Vellore Institute of Technology (VIT)</strong> – B.Tech CSE (Aug 2022 – 2026)<br>
+      CGPA: <strong>8.21</strong></p>
+      <p><strong>Kendriya Vidyalaya DRDO</strong> – AISSCE (PCMB) (2010–2022)<br>
+      Percentage: 88.8%</p>
     </section>
 
     <section id="experience" class="reveal">
       <h2>Experience</h2>
       <ul>
-        <li><strong>AI Intern – Inferigence Quotient</strong><br>
-        Audio sentiment analysis using clustering, text extraction & neural networks.</li>
-        <li><strong>Project Trainee – DRDO CAIR</strong><br>
-        Built dataset using RTVC/WaveRNN, extracted audio features, used Vision Transformers for deepfake voice detection.</li>
-        <li><strong>Senior Core Member – roboVITics</strong><br>
-        Mentored AI/ML projects, conducted designathons, and led RoboWars tech fests.</li>
+        <li><strong>Project Trainee – DRDO, Centre for AI & Robotics (June–July 2024)</strong><br>
+        Built a synthetic voice dataset using RTVC & WaveRNN, applied spectrogram-based embeddings with Vision Transformers, and implemented clustering to distinguish human vs AI-generated voices.</li>
+
+        <li><strong>AI Intern – Inferigence Quotient Pvt. Ltd. (June–July 2023)</strong><br>
+        Developed sentiment classifiers by pre-processing audio, applying statistical clustering, and training deep neural networks on extracted transcriptions.</li>
+
+        <li><strong>Senior Core Member – roboVITics, VIT</strong><br>
+        Led AI/ML project mentorship, judged hackathons, and organized VIT’s flagship RoboWars competition.</li>
       </ul>
     </section>
 
     <section id="projects" class="reveal">
       <h2>Projects</h2>
       <ul>
-        <li><strong><a href="https://github.com/anema25/Dark_pattern_detector">Dark Pattern Detector</a></strong> – Chrome extension using ML to flag deceptive UI.</li>
-        <li><strong>Synthetic Voice Classifier</strong> – Vision Transformers to separate human vs cloned voices.</li>
-        <li><strong><a href="https://github.com/anema25/DomainMentor">WordNet-Based Domain Mapper</a></strong> – NLP tool to match student-professor research fields.</li>
-        <li><strong>Autonomous Gas Detection Robot</strong> – Arduino+ESP32-based robot for hazardous gas detection.</li>
+        <li><strong><a href="https://github.com/anema25/Dark_pattern_detector" target="_blank">Dark Pattern Detector (Chrome Extension)</a></strong><br> 
+        Detects manipulative UI/UX elements using ML classification models. Built with HTML/CSS, JavaScript, Python.</li>
+
+        <li><strong>Synthetic Voice vs Human Classifier</strong><br>
+        Compared RTVC & WaveRNN outputs using Mel spectrograms, MFCC, Chroma, Vision Transformers & clustering.</li>
+
+        <li><strong><a href="https://github.com/anema25/DomainMentor" target="_blank">WordNet-Based Research Matcher</a></strong><br>
+        NLP tool to match professors' research fields to students' interests using NLTK and WordNet.</li>
+
+        <li><strong>Autonomous Gas Detection Robot</strong><br>
+        Mobile robot with ESP32 & gas sensors for real-time hazard detection and navigation.</li>
+
+        <li><strong>8051 Toll Booth System</strong><br>
+        Highway automation prototype using assembly code on 8051 microcontroller.</li>
       </ul>
     </section>
 
     <section id="skills" class="reveal">
       <h2>Skills</h2>
       <p><strong>Languages:</strong> Python, C++, Java, JavaScript, HTML/CSS, SQL</p>
-      <p><strong>Frameworks & Tools:</strong> TensorFlow, Keras, PyTorch, React, MongoDB, Git/GitHub</p>
-      <p><strong>AI/ML:</strong> NLP, Vision Transformers, Classification, Regression, Audio Processing</p>
-      <p><strong>Concepts:</strong> DSA, OS, DBMS, OOP, Machine Learning</p>
+      <p><strong>Frameworks:</strong> TensorFlow, PyTorch, Keras, ReactJS, MongoDB</p>
+      <p><strong>AI/ML:</strong> NLP, Deep Learning, Vision Transformers, Audio Processing</p>
+      <p><strong>Tools:</strong> Git, GitHub, Colab, Fusion 360, ChromaDB, VS Code</p>
+    </section>
+
+    <section id="achievements" class="reveal">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Qualified <strong>GATE 2025</strong> – Data Science & AI with 86.9 percentile</li>
+        <li><strong>Top 5%</strong> – Adobe Gensolve Hackathon 2024</li>
+        <li>Finalist – Solv-a-thon (VIT) & Yuvamanthan (IIT Bombay)</li>
+        <li><strong>Youth Parliament</strong> – Opposition Leader & Delegate</li>
+        <li><strong>DRDO CAIR</strong> – Award for Meritorious Performance (2019)</li>
+      </ul>
     </section>
 
     <section id="contact" class="reveal">
